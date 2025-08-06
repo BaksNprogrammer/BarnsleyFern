@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_BarnsleyFern_FILE /home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Debug/BarnsleyFern)
+set(__QT_DEPLOY_TARGET_BarnsleyFern_TYPE EXECUTABLE)
