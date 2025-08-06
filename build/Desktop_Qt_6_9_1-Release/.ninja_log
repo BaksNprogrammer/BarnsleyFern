@@ -1,12 +1,23 @@
 # ninja log v6
 1	131	1754318866749914066	/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/CMakeFiles/cmake.verify_globs	1ddcec5234fdc255
+131	540	1754318867282918565	/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/mocs_compilation.cpp	1ff582dee8c15a79
 131	540	1754318867282918565	BarnsleyFern_autogen/timestamp	1ff582dee8c15a79
 131	540	1754318867282918565	BarnsleyFern_autogen/mocs_compilation.cpp	1ff582dee8c15a79
 131	540	1754318867282918565	/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/timestamp	1ff582dee8c15a79
-131	540	1754318867282918565	/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/mocs_compilation.cpp	1ff582dee8c15a79
-542	1421	1754318867290919226	CMakeFiles/BarnsleyFern.dir/fernmodel.cpp.o	8eef22518154a832
 542	1962	1754318867289918424	CMakeFiles/BarnsleyFern.dir/BarnsleyFern_autogen/mocs_compilation.cpp.o	f900747ba05af5d7
+542	2014	1754318867291140864	CMakeFiles/BarnsleyFern.dir/fernview.cpp.o	a89e8324fb00d666
+542	1421	1754318867290919226	CMakeFiles/BarnsleyFern.dir/fernmodel.cpp.o	8eef22518154a832
 542	1986	1754318867290672431	CMakeFiles/BarnsleyFern.dir/main.cpp.o	8f4242b927c3e3fb
 542	1990	1754318867291276840	CMakeFiles/BarnsleyFern.dir/ferncontroller.cpp.o	af477f934d5274d1
-542	2014	1754318867291140864	CMakeFiles/BarnsleyFern.dir/fernview.cpp.o	a89e8324fb00d666
 2014	2368	1754318868761888734	BarnsleyFern	e710b083e693cfc6
+3	269	1754493643920495306	/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/CMakeFiles/cmake.verify_globs	1ddcec5234fdc255
+271	838	1754493644750578738	BarnsleyFern_autogen/timestamp	1ff582dee8c15a79
+271	838	1754493644750578738	BarnsleyFern_autogen/mocs_compilation.cpp	1ff582dee8c15a79
+271	838	1754493644750578738	/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/timestamp	1ff582dee8c15a79
+271	838	1754493644750578738	/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/mocs_compilation.cpp	1ff582dee8c15a79
+839	2029	1754493644757734349	CMakeFiles/BarnsleyFern.dir/src/fernmodel.cpp.o	4248dac326de61c0
+838	2631	1754493644755579241	CMakeFiles/BarnsleyFern.dir/BarnsleyFern_autogen/mocs_compilation.cpp.o	bbbd32e24f03ea66
+840	2673	1754493644758496557	CMakeFiles/BarnsleyFern.dir/src/ferncontroller.cpp.o	65cde9fca0549865
+839	2739	1754493644756579341	CMakeFiles/BarnsleyFern.dir/src/main.cpp.o	635b568433426668
+839	2902	1754493644758029205	CMakeFiles/BarnsleyFern.dir/src/fernview.cpp.o	cc115b0fda20f8
+2902	3258	1754493646819786251	BarnsleyFern	c0cb65ca19ad16c

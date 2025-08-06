@@ -41,17 +41,21 @@ endif()
 # _directory_contents at /home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/nuc/BarnsleyFern/*.cpp")
 set(OLD_GLOB
+  "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Debug/BarnsleyFern_autogen/6YEA5652QU/moc_ferncontroller.cpp"
+  "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Debug/BarnsleyFern_autogen/6YEA5652QU/moc_fernview.cpp"
   "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Debug/BarnsleyFern_autogen/EWIEGA46WW/moc_ferncontroller.cpp"
   "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Debug/BarnsleyFern_autogen/EWIEGA46WW/moc_fernview.cpp"
   "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Debug/BarnsleyFern_autogen/EWIEGA46WW/moc_mainwindow.cpp"
   "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Debug/BarnsleyFern_autogen/mocs_compilation.cpp"
   "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/EWIEGA46WW/moc_ferncontroller.cpp"
+  "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/EWIEGA46WW/moc_fernview.cpp"
+  "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/mocs_compilation.cpp"
   "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp"
-  "/home/nuc/BarnsleyFern/ferncontroller.cpp"
-  "/home/nuc/BarnsleyFern/fernmodel.cpp"
-  "/home/nuc/BarnsleyFern/fernview.cpp"
-  "/home/nuc/BarnsleyFern/main.cpp"
-  "/home/nuc/BarnsleyFern/mainwindow.cpp"
+  "/home/nuc/BarnsleyFern/src/ferncontroller.cpp"
+  "/home/nuc/BarnsleyFern/src/fernmodel.cpp"
+  "/home/nuc/BarnsleyFern/src/fernview.cpp"
+  "/home/nuc/BarnsleyFern/src/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -72,10 +76,10 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/nuc/BarnsleyFern/*.h")
 set(OLD_GLOB
   "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Debug/BarnsleyFern_autogen/include/ui_mainwindow.h"
   "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Debug/BarnsleyFern_autogen/moc_predefs.h"
-  "/home/nuc/BarnsleyFern/ferncontroller.h"
-  "/home/nuc/BarnsleyFern/fernmodel.h"
-  "/home/nuc/BarnsleyFern/fernview.h"
-  "/home/nuc/BarnsleyFern/mainwindow.h"
+  "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/moc_predefs.h"
+  "/home/nuc/BarnsleyFern/include/ferncontroller.h"
+  "/home/nuc/BarnsleyFern/include/fernmodel.h"
+  "/home/nuc/BarnsleyFern/include/fernview.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -177,7 +181,6 @@ endif()
 # _directory_contents at /home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/nuc/BarnsleyFern/*.ui")
 set(OLD_GLOB
-  "/home/nuc/BarnsleyFern/mainwindow.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

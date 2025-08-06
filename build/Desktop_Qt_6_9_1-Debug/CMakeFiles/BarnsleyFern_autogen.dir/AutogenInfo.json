@@ -26,6 +26,11 @@
 		"/home/nuc/Qt/Tools/CMake/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake",
 		"/home/nuc/Qt/Tools/CMake/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake",
 		"/home/nuc/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake",
+		"/home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake",
+		"/home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+		"/home/nuc/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
 		"/home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"/home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"/home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -80,11 +85,6 @@
 		"/home/nuc/Qt/Tools/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake",
 		"/home/nuc/Qt/Tools/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake",
 		"/home/nuc/Qt/Tools/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake",
-		"/home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake",
-		"/home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake",
-		"/home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
-		"/home/nuc/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
-		"/home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
 		"/home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake",
 		"/home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake",
 		"/home/nuc/Qt/6.9.1/gcc_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake",
@@ -568,21 +568,21 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/nuc/BarnsleyFern/ferncontroller.h",
+			"/home/nuc/BarnsleyFern/include/ferncontroller.h",
 			"MU",
-			"EWIEGA46WW/moc_ferncontroller.cpp",
+			"6YEA5652QU/moc_ferncontroller.cpp",
 			null
 		],
 		[
-			"/home/nuc/BarnsleyFern/fernmodel.h",
+			"/home/nuc/BarnsleyFern/include/fernmodel.h",
 			"MU",
-			"EWIEGA46WW/moc_fernmodel.cpp",
+			"6YEA5652QU/moc_fernmodel.cpp",
 			null
 		],
 		[
-			"/home/nuc/BarnsleyFern/fernview.h",
+			"/home/nuc/BarnsleyFern/include/fernview.h",
 			"MU",
-			"EWIEGA46WW/moc_fernview.cpp",
+			"6YEA5652QU/moc_fernview.cpp",
 			null
 		]
 	],
@@ -599,6 +599,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/home/nuc/BarnsleyFern/include",
 		"/home/nuc/Qt/6.9.1/gcc_64/include/QtCore",
 		"/home/nuc/Qt/6.9.1/gcc_64/include",
 		"/home/nuc/Qt/6.9.1/gcc_64/mkspecs/linux-g++",
@@ -645,10 +646,10 @@
 	"SETTINGS_FILE" : "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/BarnsleyFern_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/nuc/BarnsleyFern/ferncontroller.cpp", "MU", null ],
-		[ "/home/nuc/BarnsleyFern/fernmodel.cpp", "MU", null ],
-		[ "/home/nuc/BarnsleyFern/fernview.cpp", "MU", null ],
-		[ "/home/nuc/BarnsleyFern/main.cpp", "MU", null ]
+		[ "/home/nuc/BarnsleyFern/src/ferncontroller.cpp", "MU", null ],
+		[ "/home/nuc/BarnsleyFern/src/fernmodel.cpp", "MU", null ],
+		[ "/home/nuc/BarnsleyFern/src/fernview.cpp", "MU", null ],
+		[ "/home/nuc/BarnsleyFern/src/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

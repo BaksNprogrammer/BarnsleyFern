@@ -5,13 +5,13 @@ BarnsleyFern_autogen/timestamp: \
 	/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Debug/BarnsleyFern_autogen/moc_predefs.h \
 	/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
-	/home/nuc/BarnsleyFern/ferncontroller.cpp \
-	/home/nuc/BarnsleyFern/ferncontroller.h \
-	/home/nuc/BarnsleyFern/fernmodel.cpp \
-	/home/nuc/BarnsleyFern/fernmodel.h \
-	/home/nuc/BarnsleyFern/fernview.cpp \
-	/home/nuc/BarnsleyFern/fernview.h \
-	/home/nuc/BarnsleyFern/main.cpp \
+	/home/nuc/BarnsleyFern/include/ferncontroller.h \
+	/home/nuc/BarnsleyFern/include/fernmodel.h \
+	/home/nuc/BarnsleyFern/include/fernview.h \
+	/home/nuc/BarnsleyFern/src/ferncontroller.cpp \
+	/home/nuc/BarnsleyFern/src/fernmodel.cpp \
+	/home/nuc/BarnsleyFern/src/fernview.cpp \
+	/home/nuc/BarnsleyFern/src/main.cpp \
 	/home/nuc/Qt/6.9.1/gcc_64/include/QtCore/QObject \
 	/home/nuc/Qt/6.9.1/gcc_64/include/QtCore/QVector \
 	/home/nuc/Qt/6.9.1/gcc_64/include/QtCore/q17memory.h \

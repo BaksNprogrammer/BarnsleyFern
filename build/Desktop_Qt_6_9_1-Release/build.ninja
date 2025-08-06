@@ -53,41 +53,41 @@ build CMakeFiles/BarnsleyFern.dir/BarnsleyFern_autogen/mocs_compilation.cpp.o: C
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/BarnsleyFern.dir/BarnsleyFern_autogen/mocs_compilation.cpp.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/include -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/nuc/Qt/6.9.1/gcc_64/include -isystem /home/nuc/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtGui
+  INCLUDES = -I/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/include -I/home/nuc/BarnsleyFern/include -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/nuc/Qt/6.9.1/gcc_64/include -isystem /home/nuc/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtGui
   OBJECT_DIR = CMakeFiles/BarnsleyFern.dir
   OBJECT_FILE_DIR = CMakeFiles/BarnsleyFern.dir/BarnsleyFern_autogen
 
-build CMakeFiles/BarnsleyFern.dir/main.cpp.o: CXX_COMPILER__BarnsleyFern_unscanned_Release /home/nuc/BarnsleyFern/main.cpp || cmake_object_order_depends_target_BarnsleyFern
+build CMakeFiles/BarnsleyFern.dir/src/main.cpp.o: CXX_COMPILER__BarnsleyFern_unscanned_Release /home/nuc/BarnsleyFern/src/main.cpp || cmake_object_order_depends_target_BarnsleyFern
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/BarnsleyFern.dir/main.cpp.o.d
+  DEP_FILE = CMakeFiles/BarnsleyFern.dir/src/main.cpp.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/include -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/nuc/Qt/6.9.1/gcc_64/include -isystem /home/nuc/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtGui
+  INCLUDES = -I/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/include -I/home/nuc/BarnsleyFern/include -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/nuc/Qt/6.9.1/gcc_64/include -isystem /home/nuc/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtGui
   OBJECT_DIR = CMakeFiles/BarnsleyFern.dir
-  OBJECT_FILE_DIR = CMakeFiles/BarnsleyFern.dir
+  OBJECT_FILE_DIR = CMakeFiles/BarnsleyFern.dir/src
 
-build CMakeFiles/BarnsleyFern.dir/fernmodel.cpp.o: CXX_COMPILER__BarnsleyFern_unscanned_Release /home/nuc/BarnsleyFern/fernmodel.cpp || cmake_object_order_depends_target_BarnsleyFern
+build CMakeFiles/BarnsleyFern.dir/src/fernmodel.cpp.o: CXX_COMPILER__BarnsleyFern_unscanned_Release /home/nuc/BarnsleyFern/src/fernmodel.cpp || cmake_object_order_depends_target_BarnsleyFern
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/BarnsleyFern.dir/fernmodel.cpp.o.d
+  DEP_FILE = CMakeFiles/BarnsleyFern.dir/src/fernmodel.cpp.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/include -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/nuc/Qt/6.9.1/gcc_64/include -isystem /home/nuc/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtGui
+  INCLUDES = -I/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/include -I/home/nuc/BarnsleyFern/include -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/nuc/Qt/6.9.1/gcc_64/include -isystem /home/nuc/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtGui
   OBJECT_DIR = CMakeFiles/BarnsleyFern.dir
-  OBJECT_FILE_DIR = CMakeFiles/BarnsleyFern.dir
+  OBJECT_FILE_DIR = CMakeFiles/BarnsleyFern.dir/src
 
-build CMakeFiles/BarnsleyFern.dir/fernview.cpp.o: CXX_COMPILER__BarnsleyFern_unscanned_Release /home/nuc/BarnsleyFern/fernview.cpp || cmake_object_order_depends_target_BarnsleyFern
+build CMakeFiles/BarnsleyFern.dir/src/fernview.cpp.o: CXX_COMPILER__BarnsleyFern_unscanned_Release /home/nuc/BarnsleyFern/src/fernview.cpp || cmake_object_order_depends_target_BarnsleyFern
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/BarnsleyFern.dir/fernview.cpp.o.d
+  DEP_FILE = CMakeFiles/BarnsleyFern.dir/src/fernview.cpp.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/include -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/nuc/Qt/6.9.1/gcc_64/include -isystem /home/nuc/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtGui
+  INCLUDES = -I/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/include -I/home/nuc/BarnsleyFern/include -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/nuc/Qt/6.9.1/gcc_64/include -isystem /home/nuc/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtGui
   OBJECT_DIR = CMakeFiles/BarnsleyFern.dir
-  OBJECT_FILE_DIR = CMakeFiles/BarnsleyFern.dir
+  OBJECT_FILE_DIR = CMakeFiles/BarnsleyFern.dir/src
 
-build CMakeFiles/BarnsleyFern.dir/ferncontroller.cpp.o: CXX_COMPILER__BarnsleyFern_unscanned_Release /home/nuc/BarnsleyFern/ferncontroller.cpp || cmake_object_order_depends_target_BarnsleyFern
+build CMakeFiles/BarnsleyFern.dir/src/ferncontroller.cpp.o: CXX_COMPILER__BarnsleyFern_unscanned_Release /home/nuc/BarnsleyFern/src/ferncontroller.cpp || cmake_object_order_depends_target_BarnsleyFern
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/BarnsleyFern.dir/ferncontroller.cpp.o.d
+  DEP_FILE = CMakeFiles/BarnsleyFern.dir/src/ferncontroller.cpp.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu++17 -fdiagnostics-color=always -fPIC
-  INCLUDES = -I/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/include -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/nuc/Qt/6.9.1/gcc_64/include -isystem /home/nuc/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtGui
+  INCLUDES = -I/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/BarnsleyFern_autogen/include -I/home/nuc/BarnsleyFern/include -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/nuc/Qt/6.9.1/gcc_64/include -isystem /home/nuc/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/nuc/Qt/6.9.1/gcc_64/include/QtGui
   OBJECT_DIR = CMakeFiles/BarnsleyFern.dir
-  OBJECT_FILE_DIR = CMakeFiles/BarnsleyFern.dir
+  OBJECT_FILE_DIR = CMakeFiles/BarnsleyFern.dir/src
 
 
 # =============================================================================
@@ -97,7 +97,7 @@ build CMakeFiles/BarnsleyFern.dir/ferncontroller.cpp.o: CXX_COMPILER__BarnsleyFe
 #############################################
 # Link the executable BarnsleyFern
 
-build BarnsleyFern: CXX_EXECUTABLE_LINKER__BarnsleyFern_Release CMakeFiles/BarnsleyFern.dir/BarnsleyFern_autogen/mocs_compilation.cpp.o CMakeFiles/BarnsleyFern.dir/main.cpp.o CMakeFiles/BarnsleyFern.dir/fernmodel.cpp.o CMakeFiles/BarnsleyFern.dir/fernview.cpp.o CMakeFiles/BarnsleyFern.dir/ferncontroller.cpp.o | /home/nuc/Qt/6.9.1/gcc_64/lib/libQt6Widgets.so.6.9.1 /home/nuc/Qt/6.9.1/gcc_64/lib/libQt6Gui.so.6.9.1 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/nuc/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1 || BarnsleyFern_autogen BarnsleyFern_autogen_timestamp_deps
+build BarnsleyFern: CXX_EXECUTABLE_LINKER__BarnsleyFern_Release CMakeFiles/BarnsleyFern.dir/BarnsleyFern_autogen/mocs_compilation.cpp.o CMakeFiles/BarnsleyFern.dir/src/main.cpp.o CMakeFiles/BarnsleyFern.dir/src/fernmodel.cpp.o CMakeFiles/BarnsleyFern.dir/src/fernview.cpp.o CMakeFiles/BarnsleyFern.dir/src/ferncontroller.cpp.o | /home/nuc/Qt/6.9.1/gcc_64/lib/libQt6Widgets.so.6.9.1 /home/nuc/Qt/6.9.1/gcc_64/lib/libQt6Gui.so.6.9.1 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/nuc/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1 || BarnsleyFern_autogen BarnsleyFern_autogen_timestamp_deps
   FLAGS = -O3 -DNDEBUG
   LINK_LIBRARIES = -Wl,-rpath,/home/nuc/Qt/6.9.1/gcc_64/lib:  /home/nuc/Qt/6.9.1/gcc_64/lib/libQt6Widgets.so.6.9.1  /home/nuc/Qt/6.9.1/gcc_64/lib/libQt6Gui.so.6.9.1  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  /home/nuc/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1  -Wl,-rpath-link,/home/nuc/Qt/6.9.1/gcc_64/lib
   OBJECT_DIR = CMakeFiles/BarnsleyFern.dir
