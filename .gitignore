@@ -1,0 +1,57 @@
+# Игнорировать директорию сборки
+/build/
+
+# Игнорировать файлы, созданные Qt Creator
+*.user
+*.user.*
+
+# Игнорировать временные файлы и артефакты сборки
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.dll.a
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.pch
+
+# Игнорировать файлы, созданные CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Игнорировать файлы, созданные компилятором
+*.dir/
+*.suo
+*.opensdf
+*.sdf
+
+# Игнорировать файлы IDE
+.idea/
+.vs/
+*.swp
+
+# Игнорировать файлы логов и временные файлы
+*.log
+*.tmp
+*.bak
+
+# Игнорировать файлы, связанные с macOS
+.DS_Store
+
+# Игнорировать файлы, связанные с Windows
+Thumbs.db
+
+# Игнорировать файлы, связанные с Linux
+*.swp
