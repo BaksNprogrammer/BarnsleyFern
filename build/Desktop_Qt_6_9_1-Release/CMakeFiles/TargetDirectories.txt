@@ -1,0 +1,9 @@
+/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/CMakeFiles/BarnsleyFern.dir
+/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/CMakeFiles/edit_cache.dir
+/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/CMakeFiles/rebuild_cache.dir
+/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/CMakeFiles/list_install_components.dir
+/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/CMakeFiles/install.dir
+/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/CMakeFiles/install/local.dir
+/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/CMakeFiles/install/strip.dir
+/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/CMakeFiles/BarnsleyFern_autogen_timestamp_deps.dir
+/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release/CMakeFiles/BarnsleyFern_autogen.dir

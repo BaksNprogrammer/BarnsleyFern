@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-5fd535f3b4ca0740c268.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BarnsleyFern",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BarnsleyFern::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BarnsleyFern-Release-19494f4df3892d5b3f82.json",
+					"name" : "BarnsleyFern",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BarnsleyFern_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BarnsleyFern_autogen-Release-764c0cf0e9bc517bcc14.json",
+					"name" : "BarnsleyFern_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BarnsleyFern_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BarnsleyFern_autogen_timestamp_deps-Release-d19f734240c9e136cda8.json",
+					"name" : "BarnsleyFern_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nuc/BarnsleyFern/build/Desktop_Qt_6_9_1-Release",
+		"source" : "/home/nuc/BarnsleyFern"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
