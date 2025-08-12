@@ -19,5 +19,8 @@ FernModel::Point FernModel::calculateNextPoint(const Point& current) {
         nextPoint.y = 0.26 * current.x + 0.24 * current.y + 0.44;
     }
 
+
+    nextPoint.z = 0.1 * nextPoint.x;
+
     return nextPoint;
 }

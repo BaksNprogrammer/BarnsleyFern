@@ -5,6 +5,8 @@
 #include <QVector>
 #include <QSlider>
 #include <QLabel>
+#include <QTimer>
+#include <QPainterPath>
 #include "fernmodel.h"
 
 class FernView : public QWidget {
@@ -12,6 +14,7 @@ class FernView : public QWidget {
 
 public:
     FernView(QWidget *parent = nullptr);
+    ~FernView();
 
     void paintEvent(QPaintEvent *event) override;
     void setPoints(const QVector<FernModel::Point>& newPoints);
@@ -19,11 +22,18 @@ public:
 signals:
     void probabilitiesChanged(double p1, double p2, double p3, double p4);
 
+private slots:
+    void updateRotation();
+
 private:
     QVector<FernModel::Point> points;
-    QSlider *slider1, *slider2, *slider3, *slider4, *scaleSlider;
-    QLabel *label1, *label2, *label3, *label4, *scaleLabel;
+    QSlider *stemSlider, *leavesSlider, *branchesSlider, *tipsSlider, *scaleSlider, *speedAnimationSlider;
+    QLabel *stemLabel, *leavesLabel, *branchesLabel, *tipsLabel, *scaleLabel, *speedAnimationLabel;
     double scaleFactor;
+    double rotationAngleY;
+    double rotationAngleX;
+    double speedAni;
+    QTimer *rotationTimer;
 };
 
 #endif // FERNVIEW_H

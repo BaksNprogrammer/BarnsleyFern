@@ -8,6 +8,7 @@ public:
     struct Point {
         double x;
         double y;
+        double z;
     };
 
     FernModel(double p1 = 0.01, double p2 = 0.86, double p3 = 0.93, double p4 = 1.0)
