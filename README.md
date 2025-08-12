@@ -23,12 +23,63 @@
 - CMake (версия 3.16 или выше)
 - Git
 
-## Установка и запуск
-
 ### Клонирование репозитория
 
 Сначала клонируйте репозиторий на ваш локальный компьютер:
 
 ```bash
+
 git clone https://github.com/BaksNprogrammer/BarnsleyFern.git
 cd BarnsleyFern
+
+```
+
+## Установка и запуск
+Установите необходимые пакеты:
+### Linux (Debian/Ubuntu):
+
+```bash
+
+sudo apt-get update
+sudo apt-get install build-essential cmake qt6-base-dev
+
+```
+
+### Windows:
+```bash
+
+choco install cmake
+choco install qt6
+
+```
+### macOS
+
+```bash
+brew update
+brew install cmake qt
+```
+### Сборка и запуск проекта
+
+```bash
+
+mkdir build
+cd build
+
+```
+
+```bash
+
+cmake ..
+cmake --build .
+
+```
+```bash
+./BarnsleyFern
+```
+
+
+
+
+
+
+
